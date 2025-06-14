@@ -10,7 +10,7 @@ const app = express();
 
 dotenv.config();
 
-app.use(cors({ origin: ["http://localhost:1234", "https://grubexpress.vercel.app"], credentials: true, }));
+app.use(cors({ origin: ["http://localhost:1234", "https://grubexpress.vercel.app/"], credentials: true, }));
 app.use(express.json());
 app.use(cookieParser());
 
